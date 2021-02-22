@@ -1,4 +1,5 @@
-@import url("../css/awesome.css");
+ @import url("../css/awesome.css");
+ @import url("../css/pricing.css");
 
 * {
     margin: 0;
@@ -8,9 +9,21 @@
     text-decoration: none;    
 }
 
+html {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
 .title {    
     color: #212121;
     font-size: 36px;
     line-height: 42px;
     text-transform: uppercase;
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
