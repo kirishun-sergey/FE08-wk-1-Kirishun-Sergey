@@ -4,19 +4,6 @@
     padding: 100px 0;   
 }
 
-
-.awesome__title {
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.awesome__line {
-    margin: 0 auto 30px;
-    width: 64px;
-    height: 2px;
-    background-color: #d98943
-}
-
 .awesome__description {    
     color: #86878B;
     margin-bottom: 67px;
@@ -61,4 +48,5 @@
     color: #000000;
     font-size: 14px;
     text-align: center;
+    word-break: break-word;
 }

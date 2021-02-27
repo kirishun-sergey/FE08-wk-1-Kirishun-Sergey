@@ -4,34 +4,23 @@
     padding: 80px 0;
 }
 
-.pricing__title {
-    margin-bottom: 34px;
-    text-align: center;
-    
-}
-
-.pricing__line {
-    margin: 0 auto 34px;
-    width: 64px;
-    height: 2px;
-    background-color: #e72424
-}
-
 .pricing__description {
     color: #86878B;
     margin-bottom: 63px;
     text-align: center;
 }
 
-.princig__row {
+.pricing__row {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    margin: 0 -15px;
+
 }
 
 .tariff {
     width: 100%;
     max-width: 340px;
-    margin: 0 40px;
+    margin: 0 15px;
 } 
 
 .tariff__name {
@@ -52,9 +41,8 @@
 .tariff__cost {
     background-color: #333333;
     margin-bottom: 1px;
-    padding: 30px;
+    padding: 26px 0 33px;
     font-size: 35px;
-    line-height: 100px;
     font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 700;
 } 
@@ -74,9 +62,21 @@
 
 .tariff__item {
     background-color: #FFFFFF;
-    color: #86878B;
+    color: #86878b;
     text-align: center;
     margin-top: 1px;
     line-height: 40px;
-    
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tariff__item:hover {
+    color: rgb(88, 89, 92);
+    font-size: 16px;
+    background-color: rgb(175, 175, 180);
+
+}
+
+.tariff__item:active {
+    background-color: #D98943;
 }

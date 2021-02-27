@@ -1,0 +1,54 @@
+.axure {
+    padding: 58px 0 38px;
+    position: relative;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.axure::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.55);    
+}
+
+.container-axure {
+    position: relative;
+    z-index: 1;
+}
+
+.axure__title.title {
+    color: #ffffff;
+}
+
+.axure__description {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-axure .axure__title::after {
+    background-color: #ffffff;
+}
+
+.axure_download-btn {
+    margin-top: 57px;
+    text-align: center;
+}
+
+.axure_download-btn a {
+    color: #ffffff;
+    padding: 11px 26px;
+    border: 1px solid #ffffff;
+}
+
+.axure_download-btn a:hover {
+    color: #D98943;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+

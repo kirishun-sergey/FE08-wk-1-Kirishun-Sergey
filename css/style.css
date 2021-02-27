@@ -1,5 +1,7 @@
  @import url("../css/awesome.css");
  @import url("../css/pricing.css");
+ @import url("../css/customers.css");
+ @import url("../css/axure.css");
 
 * {
     margin: 0;
@@ -18,12 +20,38 @@ html {
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
+    
+
 }
-.title {    
-    color: #212121;
+
+.container h2::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #e72474;
+    display: block;
+    margin: auto;
+    margin-top: 34px;  
+}
+
+.title {
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 42px;
-    text-transform: uppercase;
-    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #212121;
     font-weight: 400;
+    text-align: center;         
+    text-transform: uppercase;   
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 34px;
+}
+
+.title:hover {
+    font-size: 42px;
+    color: #212121
+}
+
+.title:active {
+    color:#D98943;
 }
