@@ -14,14 +14,13 @@
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
-
 }
 
 .tariff {
     width: 100%;
     max-width: 340px;
     margin: 0 15px;
-} 
+}
 
 .tariff__name {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -33,8 +32,9 @@
     font-weight: 700;
 }
 
-.tariff__name, .tariff__cost {
-    color: #ffffff; 
+.tariff__name,
+.tariff__cost {
+    color: #ffffff;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
     font-size: 35px;
     font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 700;
-} 
+}
 
 .tariff__condition {
     background-color: #333333;
@@ -74,7 +74,6 @@
     color: rgb(88, 89, 92);
     font-size: 16px;
     background-color: rgb(175, 175, 180);
-
 }
 
 .tariff__item:active {

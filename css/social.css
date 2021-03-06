@@ -1,0 +1,39 @@
+.social-media {
+    width: 100%;
+    background-color: #f8efef;
+    padding: 17px 0;
+}
+
+h3 {
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+p {
+    color: #86878b;
+}
+
+.social {
+    max-width: 365px;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 684px;
+    color: #86878b;
+    font-size: 34px;
+}
+
+.icon li {
+    align-self: center;
+}
+
+.fab {
+    margin-right: 12px;
+}

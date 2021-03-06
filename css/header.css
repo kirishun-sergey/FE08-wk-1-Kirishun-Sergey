@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    background-color: #000000;
+    padding: 25px 0;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.logo {
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.logo span:first-child {
+    color: #ffffff;
+}
+
+.logo span:last-child {
+    color: #ec7979;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 48px;
+}
+
+.nav__item a {
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav__item a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
