@@ -6,6 +6,8 @@
  @import url("../css/social.css");
  @import url("../css/footer.css");
  @import url("../css/modern.css");
+ @import url("../css/contact.css");
+ @import url("../css/tabs.css");
  * {
      margin: 0;
      padding: 0;
@@ -37,6 +39,15 @@
      flex: 0 0 auto;
  }
  
+ li {
+     list-style: none;
+ }
+ 
+ i:hover {
+     transition: 0.5s;
+     transform: scale(1.2);
+ }
+ 
  .container {
      max-width: 1170px;
      padding: 0 15px;
@@ -66,11 +77,6 @@
      margin-bottom: 34px;
  }
  
- .title:hover {
-     font-size: 42px;
-     color: #212121
- }
- 
  .title:active {
      color: #D98943;
  }
@@ -78,4 +84,50 @@
  i:hover {
      cursor: pointer;
      color: #D98943;
+ }
+ 
+ .button {
+     border: 1px solid #ffffff;
+     background-color: transparent;
+ }
+ 
+ .button a {
+     display: inline-block;
+     color: #ffffff;
+     line-height: 42px;
+     text-decoration: none;
+     height: 42px;
+     padding: 0 26px;
+ }
+ 
+ .button:hover {
+     background-color: rgba(0, 0, 0, 0.25);
+ }
+ 
+ .button:hover a {
+     color: #D98943;
+ }
+ 
+ .form-label {
+     color: #BDBDBD;
+     line-height: 20px;
+ }
+ 
+ .form-input {
+     border-style: solid;
+     border-width: 0 0 1px 0;
+     border-color: #BDBDBD;
+ }
+ 
+ .form-input:focus {
+     outline: 0;
+     border-color: #e72424;
+ }
+ 
+ .form-btn {
+     font-family: 'Open Sans', Arial, sans-serif;
+     background-color: #ec7979;
+     color: #ffffff;
+     border: 0;
+     cursor: pointer;
  }

@@ -1,5 +1,5 @@
-    .modern {
-    padding: 58px 0 38px;
+.modern {
+    padding: 110px 0 110px;
     position: relative;
     background-image: url("../img/background-1\ 1.png");
     background-repeat: no-repeat;
@@ -16,3 +16,88 @@
     left: 0;
     display: block;
     background-color: rgba(0, 0, 0, 0.45);
+}
+
+.container-line {
+    position: relative;
+    z-index: 1;
+}
+
+.modern-logo {
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    max-width: 544px;
+}
+
+.container-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modern-logo span:first-child {
+    color: #ffffff;
+}
+
+.modern-logo span:last-child {
+    color: #ec7979;
+}
+
+.modern__title {
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 34px;
+    max-width: 544px;
+}
+
+.container-line .modern__title::after {
+    background-color: #ffffff;
+    margin-left: 0px;
+}
+
+.modern__description {
+    max-width: 282px;
+    margin-bottom: 39px;
+}
+
+.modern-form {
+    background-color: #ffffff;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.modern-form__content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding: 0 60px;
+}
+
+.modern-form__title {
+    font-size: 20px;
+    line-height: 56px;
+    margin-bottom: 44px;
+}
+
+.modern-form__title span {
+    color: #ec7979;
+}
+
+.modern-form__input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.modern-form__btn {
+    width: 100%;
+    border-radius: 0;
+    padding: 20px 0;
+}

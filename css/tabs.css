@@ -1,0 +1,77 @@
+    .tabs {
+        width: 100%;
+        background-color: #e5e5e5;
+        padding: 100px 0;
+    }
+    
+    .tab__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .tab__nav {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-right: 118px;
+    }
+    
+    .tab__item {
+        display: block;
+        color: #ffffff;
+        background-color: #ec7979;
+        padding: 45px 35px;
+        border-radius: 5px;
+        font-family: 'Ospen Sans', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        border: 0;
+    }
+    
+    .tab__item:not(:first-child) {
+        background: #333333;
+        margin-top: 10px;
+    }
+    
+    .tab__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .tabs__download-btn a {
+        background-color: #ec7979;
+        color: #ffffff;
+    }
+    
+    .tabs__download-btn.button {
+        border: 0;
+    }
+    
+    .tabs__download-btn.button:hover a {
+        color: #161514;
+    }
+    
+    .tab__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-right: 50px;
+    }
+    
+    .tab__title {
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .tabs__description p {
+        text-transform: uppercase;
+        line-height: 20px;
+        letter-spacing: 1.2;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }

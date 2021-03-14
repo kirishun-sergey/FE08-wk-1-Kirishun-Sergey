@@ -36,18 +36,7 @@
     background-color: #ffffff;
 }
 
-.axure_download-btn {
-    margin-top: 57px;
-    text-align: center;
-}
-
-.axure_download-btn a {
-    color: #ffffff;
-    padding: 11px 26px;
-    border: 1px solid #ffffff;
-}
-
-.axure_download-btn a:hover {
-    color: #D98943;
-    background-color: rgba(0, 0, 0, 0.25);
+.axure__download-btn {
+    display: block;
+    margin: 57px auto 0;
 }
